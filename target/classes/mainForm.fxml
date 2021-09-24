@@ -2,7 +2,6 @@
 
 <?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
-<?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
@@ -12,7 +11,7 @@
          <font>
             <Font size="14.0" />
          </font></TextField>
-      <Label fx:id="label" layoutX="197.0" layoutY="19.0" prefHeight="25.0" prefWidth="580.0" text="Телефонный справочник Управления ФСБ России по Краснодарскому краю">
+      <Label fx:id="label" layoutX="197.0" layoutY="19.0" prefHeight="25.0" prefWidth="580.0" text="Телефонный справочник">
          <font>
             <Font size="16.0" />
          </font></Label>
@@ -24,11 +23,6 @@
          <font>
             <Font size="14.0" />
          </font></Button>
-      <ImageView fitHeight="85.0" fitWidth="160.0" layoutX="36.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@logo.jpg" />
-         </image>
-      </ImageView>
       <TextField fx:id="otherField" editable="false" layoutX="28.0" layoutY="495.0" prefHeight="25.0" prefWidth="920.0" promptText="Дополнительно" AnchorPane.bottomAnchor="18.0" AnchorPane.leftAnchor="28.0" AnchorPane.rightAnchor="28.0" />
       <GridPane layoutX="-2.0" layoutY="116.0" prefHeight="336.0" prefWidth="950.0" AnchorPane.bottomAnchor="85.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="117.0">
         <columnConstraints>
@@ -70,12 +64,12 @@
                         <Font size="14.0" />
                      </font>
                   </Label>
-                  <Label layoutX="25.0" layoutY="119.0" text="Абонентский номер ЗС:" AnchorPane.topAnchor="119.0">
+                  <Label layoutX="25.0" layoutY="119.0" text="Абонентский номер 1:" AnchorPane.topAnchor="119.0">
                      <font>
                         <Font size="14.0" />
                      </font>
                   </Label>
-                  <Label layoutX="25.0" layoutY="178.0" text="Абонентский номер открытой связи:" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="178.0">
+                  <Label layoutX="25.0" layoutY="178.0" text="Абонентский номер 2:" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="178.0">
                      <font>
                         <Font size="14.0" />
                      </font>
