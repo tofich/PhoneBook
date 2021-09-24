@@ -56,7 +56,7 @@ public class DBHandler {
     public ObservableList<Subscriber> searchPhones(String searchText){
         ObservableList<Subscriber> subscriberObservableList = FXCollections.observableArrayList();
         try {
-            PreparedStatement ps = conn.prepareStatement("SELECT * FROM UFSB_po_habarovskomu_krau WHERE LOWER(fio) like LOWER(?) ");
+            PreparedStatement ps = conn.prepareStatement("SELECT * FROM phones WHERE LOWER(fio) like LOWER(?) ");
             ps.setString(1, "%" + searchText + "%");
             ResultSet rs = ps.executeQuery();
             while (rs.next()) {

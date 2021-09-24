@@ -7,7 +7,7 @@
 
 <AnchorPane fx:id="mainForm" minHeight="-Infinity" minWidth="-Infinity" prefHeight="538.0" prefWidth="974.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sprav.Controller">
    <children>
-      <TextField fx:id="searchField" layoutX="198.0" layoutY="60.0" onAction="#searchPhones" prefHeight="30.0" prefWidth="448.0" promptText="Поиск">
+      <TextField fx:id="searchField" layoutX="198.0" layoutY="60.0" onAction="#searchPhones" prefHeight="30.0" prefWidth="448.0" promptText="Поиск по ФИО">
          <font>
             <Font size="14.0" />
          </font></TextField>
