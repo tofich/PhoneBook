@@ -30,7 +30,7 @@ public class DBHandler {
     public ObservableList<Subscriber> selectAllPhonesInBase(){
         ObservableList<Subscriber> subscriberObservableList = FXCollections.observableArrayList();
         try {
-            ResultSet rs = stmt.executeQuery("SELECT * FROM UFSB_po_habarovskomu_krau");
+            ResultSet rs = stmt.executeQuery("SELECT * FROM phones");
             while (rs.next()) {
                 subscriberObservableList.add(new Subscriber(
                         rs.getInt("Код"),
